@@ -1,0 +1,53 @@
+---
+title: "workloadAction resource type"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+doc_type: resourcePageType
+---
+
+# workloadAction resource type
+
+Namespace: microsoft.graph.managedTenants
+
+
+
+**TODO: Add Description**
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|actionId|String|**TODO: Add Description**|
+|category|workloadActionCategory|**TODO: Add Description**. Possible values are: `automated`, `manual`, `unknownFutureValue`.|
+|description|String|**TODO: Add Description**|
+|displayName|String|**TODO: Add Description**|
+|service|String|**TODO: Add Description**|
+|settings|[microsoft.graph.managedTenants.setting](../resources/managedtenants-setting.md) collection|**TODO: Add Description**|
+
+## Relationships
+None.
+
+## JSON representation
+The following is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "@odata.type": "microsoft.graph.managedTenants.workloadAction"
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.managedTenants.workloadAction",
+  "actionId": "String",
+  "category": "String",
+  "displayName": "String",
+  "description": "String",
+  "service": "String",
+  "settings": [
+    {
+      "@odata.type": "microsoft.graph.managedTenants.setting"
+    }
+  ]
+}
+```
+
